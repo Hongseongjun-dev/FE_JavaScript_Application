@@ -6,6 +6,7 @@ let user = {
 };
 
 // 아래에 코드를 작성해주세요 ~
+let [Name, age, isAdmin = false] = user;
 
 alert(Name); // "지환"
 alert(age); // 23
